@@ -90,7 +90,7 @@ body {
     font-size:25px;
     transform:rotate(-90deg);
     background:transparent;
-    color:#6e5494;
+    color:#fff;
     position:fixed;
     left:0;
     bottom:40vh;
@@ -107,7 +107,7 @@ body {
     text-align:center;
     font-size:25px;
     background:transparent;
-    color:#6e5494;
+    color:#fff;
     position:fixed;
     bottom:0;
     left:45vw;
@@ -172,7 +172,7 @@ body {
     font-size:14px !important;
     display:inline-block;
     padding:8px 10px;
-    border:2px solid #fff;
+    border:2px solid #0000;
     margin:0px 10px;
     border-radius:50px;
 }
@@ -227,12 +227,12 @@ body {
     margin:20px 1%;
     background:transparent;
     border:0px;
-    border-bottom:3px solid rgba(255,255,255,0.5);
+    border-bottom:3px solid #0000;
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#0000;
     font-weight:bold;
 }
 .container form textarea {
@@ -247,19 +247,19 @@ body {
     background:transparent;
     resize:none;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#0000;
     font-weight:bold;
 }
 .container form input:focus {
     outline:none;
-    border-bottom:3px solid rgba(255, 255, 255,1);
+    border-bottom:3px solid #0000;
 }
 .container form textarea:focus {
     outline:none;
-    border-bottom:3px solid #fff;
+    border-bottom:3px solid #0000;
 }
 ::placeholder {
-    color:#fff;
+    color:#0000;
 }
 #footer {
     color:#fff;
@@ -338,6 +338,7 @@ body {
     }
 
 }
+
 
 
 
