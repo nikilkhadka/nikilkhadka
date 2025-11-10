@@ -90,27 +90,9 @@ body {
     font-size:25px;
     transform:rotate(-90deg);
     background:transparent;
-    color:#fff;
+    color:#6e5494;
     position:fixed;
     left:0;
-    bottom:40vh;
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    z-index:4;
-    transition:0.4s ease-in-out;
-    border-radius:0px 0px 100px 100px;
-}
-#work {
-    width:10vw;
-    height:10vw;
-    text-align:center;
-    font-size:25px;
-    transform:rotate(90deg);
-    background:transparent;
-    color:#fff;
-    position:fixed;
-    right:0;
     bottom:40vh;
     display:flex;
     flex-direction: column;
@@ -125,7 +107,7 @@ body {
     text-align:center;
     font-size:25px;
     background:transparent;
-    color:#fff;
+    color:#6e5494;
     position:fixed;
     bottom:0;
     left:45vw;
@@ -137,15 +119,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgba(255,255,255);
+    background:#fff;
     cursor:pointer;
 }
 #work:hover {
-    background:rgba(255,255,255);
+    background:#fff;
     cursor:pointer;
 }
 #contact:hover {
-    background:rgba(255,255,255);
+    background:#fff;
     cursor:pointer;
 }
 #middle table {
@@ -165,7 +147,7 @@ body {
 }
 .social:hover { 
     cursor: pointer;
-    color:rgb(255, 50, 50);
+    color:#6e5494;
 }
 .container {
     width:90vw;
@@ -295,7 +277,7 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 50, 50) ;
+    color:#fff ;
 }
 #particles-js {
     position:fixed;
@@ -360,3 +342,4 @@ body {
     }
 
 }
+
