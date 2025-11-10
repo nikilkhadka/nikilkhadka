@@ -47,10 +47,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(110, 84, 148);
+    background:#fff;
 }
 .box2 {
-    background:rgb(110, 84, 148);
+    background:#fff;
     margin-left:-5px;
 }
 #menu {
@@ -79,7 +79,7 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(110, 84, 148);
+    color:#fff;
     font-size:70px;
     text-decoration:underline;
 }
@@ -119,15 +119,11 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:#fff;
-    cursor:pointer;
-}
-#work:hover {
-    background:#fff;
+    background:#6e5494;
     cursor:pointer;
 }
 #contact:hover {
-    background:#fff;
+    background:#6e5494;
     cursor:pointer;
 }
 #middle table {
@@ -153,8 +149,8 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(255, 50, 50);
-    color:#fff;
+    background:#fff;
+    color:#000000;
     z-index:9;
     position:fixed;
     max-height:100vh;
@@ -207,13 +203,13 @@ body {
 }
 .btn_one:hover {
     cursor:pointer;
-    color:rgb(255, 50, 50);
+    color:#6e5494;
     background:#fff;
 }
 .btn_two {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:rgb(255, 50, 50);
+    color:#6e5494;
     background:#fff;
     border:3px solid #fff;
     padding:8px 40px;
@@ -244,7 +240,7 @@ body {
     margin:20px 1%;
     padding:8px 10px;
     border:0px;
-    border-bottom:3px solid rgba(255,255,255,0.5);
+    border-bottom:3px solid #6e5494;
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
     font-size:18px;
@@ -260,7 +256,7 @@ body {
 }
 .container form textarea:focus {
     outline:none;
-    border-bottom:3px solid rgba(255, 255, 255,1);
+    border-bottom:3px solid #6e5494;
 }
 ::placeholder {
     color:#fff;
@@ -292,14 +288,14 @@ body {
     background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(255, 50, 50); 
+    background: #6e5494; 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 50, 50,0.8); 
+    background: #6e5494; 
 }
 ::selection {
 	color: #fff;
-	background: rgb(255, 50, 50);
+	background: #6e5494;
 }
 
 @media (max-width: 800px){ 
@@ -342,4 +338,5 @@ body {
     }
 
 }
+
 
