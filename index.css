@@ -203,14 +203,14 @@ body {
 }
 .btn_one:hover {
     cursor:pointer;
-    color:#6e5494;
-    background:#fff;
+    color:#fff;
+    background:#6e5494;
 }
 .btn_two {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:#6e5494;
-    background:#fff;
+    color:#fff;
+    background:#6e5494;
     border:3px solid #fff;
     padding:8px 40px;
     border-radius:80px;
@@ -256,7 +256,7 @@ body {
 }
 .container form textarea:focus {
     outline:none;
-    border-bottom:3px solid #6e5494;
+    border-bottom:3px solid #fff;
 }
 ::placeholder {
     color:#fff;
@@ -338,5 +338,6 @@ body {
     }
 
 }
+
 
 
